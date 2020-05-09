@@ -1,0 +1,142 @@
+.body{
+    margin:0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.h1{
+    font-family: 'Didact Gothic', sans-serif;
+}
+.h2{
+    font-family: 'Didact Gothic', sans-serif;
+    color: lightgray;
+    letter-spacing: 5px;
+}
+.container1{
+    display: flex;
+    background-color: lightslategray;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.btn{
+    cursor: context-menu;
+    border-style: none;
+    border-color: #ff433d;
+    background-color: lightslategray;
+    color: #ffff28;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size:20px;
+    transition: 1s;
+    letter-spacing: 2px;
+    border-style: dotted;
+    border:0.1rem solid #ffff28;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    padding:3px 3px;
+}
+.btn:hover{
+    color: white;
+    border-color: white;
+    opacity: 2;
+    lighting-color: #dd8d37;
+    transition: 1s;
+    text-shadow: black 1px 2px;
+
+}
+.container2{
+    flex-direction: column;
+    padding:55px;
+}
+.container3{
+    flex-direction: row;
+    padding:45px 45px 45px 45px;
+}
+.image1{
+    horiz-align: right;
+    width: 40%;
+    box-shadow: slategray 5px 5px 5px 5px;
+}
+.p1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+.eml{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width:250px;
+    border-radius: 20px;
+    transition-duration: .7s;
+}
+.eml:hover{
+    background-color: ghostwhite;
+    transition-duration: .7s;
+}
+.eml1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    height: 30px;
+    width:100px;
+    border-radius: 15px;
+    transition-duration: .7s;
+}
+.eml1:hover{
+    background-color: greenyellow;
+    transition-duration: .7s;
+    opacity: 1;
+}
+.facebook{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color: white;
+    transition-duration: .7s;
+    text-decoration: none;
+}
+.facebook:hover{
+    color: cyan;
+    transition-duration: .7s;
+    opacity: 1;
+}
+.li2{
+    font-size: 20px;
+}
+.instagram{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color:white;
+    transition-duration: .7s;
+    text-decoration: none;
+}
+.instagram:hover{
+    color-rendering: optimizeQuality;
+    color: #ff599c;
+    transition-duration: 0.7s;
+    opacity: 1;
+}
+.youtube{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color:white;
+    transition-duration: 0.7s;
+    text-decoration: none;
+}
+.youtube:hover{
+    color:Red;
+    transition-duration: 0.7s;
+    opacity: 1;
+}
+.Github{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color:white;
+    transition-duration: 0.7s;
+    text-decoration: none;
+}
+.Github:hover{
+    color:black;
+    transition-duration: 0.7s;
+    opacity: 1;
+}
